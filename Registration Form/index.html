@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&isplay=sfamily=Merriweather:wght@900&dwap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="header"><h1> Job Application </h1></div>
+  
+  <div class="main">
+    <form action="/" method="POST">
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="text" name="firstName" placeholder="First Name"><br>
+        <label class="firstlabel"> First Name</label>
+        <input class="lastname" type="text" name="lastName" placeholder="Last Name"><br>
+        <label class="lastlabel"> Last Name</label>
+      </div>
+
+      <h2 class="name">Email</h2>
+      <input class="email" type="text" name="email" placeholder="Email Id">
+
+      <h2 class="name">Contact Number</h2>
+      <input class="number" type="text" name="phone" placeholder="Number">
+
+      <h2 class="name">College Name</h2>
+      <input class="college" type="text" name="college" placeholder="College Name">
+
+      <h2 class="name">City</h2>
+      <input class="city" type="text" name="city" placeholder="Address">
+
+      <h2 class="name">Country</h2>
+      <input class="country" type="text" name="country" placeholder="Country Name">
+
+      <h2 class="name">Year of Graduation</h2>
+      <input class="graduation" type="text" name="graduation" placeholder="Graduation Year">
+
+      <h2 class="name">Primary Skills</h2>
+      <select class="option" name="primarySkills">
+        <option disabled="disabled" selected="selected">-- Choose Option--</option>
+        <option>Web Development</option>
+        <option>React</option>
+        <option>Python</option>
+        <option>Django</option>
+        <option>Data Science</option>
+        <option>My SQL</option>
+        <option>Mongo DB</option>
+      </select>
+
+      <h2 class="name">Secondary Skills</h2>
+      <select class="option" name="secondarySkills">
+        <option disabled="disabled" selected="selected">-- Choose Option--</option>
+        <option>Web Development</option>
+        <option>React</option>
+        <option>Python</option>
+        <option>Django</option>
+        <option>Data Science</option>
+        <option>My SQL</option>
+        <option>Mongo DB</option>
+      </select>
+
+
+      <h2 class="name">Resume</h2>
+      <input class="resume" type="file" name="resume" accept=".pdf">
+
+      <h2 class="name">CV</h2>
+      <input class="cv" type="file" name="cv" accept=".pdf">
+
+      <h2 class="name">Last Semester Marksheet</h2>
+      <input class="marksheet" type="file" name="marksheet" accept=".pdf">
+
+      <div class="checkbox">
+        <input class="checkbox" type="checkbox" name="checkbox">
+        <h3>I accept the Terms & Condition</h3>
+      </div>
+      
+      <button type="submit">Submit</button>
+
+
+    </form>
+  </div>
+  
+  
+  <div class="footer"><h1> Technocolabs &copy; 2020 </h1></div>
+  
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

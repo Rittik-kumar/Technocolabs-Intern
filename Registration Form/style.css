@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 40px 0;
+  background-color: #0000FF;
+ }
+
+.header{
+  width: 800px;
+  background-color:rgb(0, 0, 0, 0.6);
+  margin: auto;
+  color: #ffff;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  font-family: 'Merriweather', serif;
+}
+
+.main{
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 800px;
+  margin: auto;
+  background-color: #000080;
+}
+
+form{
+  padding: 10px;
+}
+
+#name{
+ width: 100%;
+ height: 100px;
+}
+
+.name{
+  margin: 30px 0 0 25px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.firstname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+  
+}
+
+.lastname{
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.firstlabel{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -45px;
+}
+.lastlabel{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 492px;
+  top: -76px;
+}
+
+.email{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+
+.number{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.college{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.city{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.country{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.graduation{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
+.option{
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 532px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #2F4F4F;
+  outline: none;
+  overflow: hidden;
+}
+
+.option option{
+  font-size: 20px;
+}
+
+.resume{
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.cv{
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.marksheet{
+  position: relative;
+  left: 200px;
+  top: -65px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.checkbox{
+  position: relative;
+  top: -10px;
+  left: 130px;
+}
+
+.checkbox h3{
+  position: relative;
+  top: -31px;
+  left: 150px;
+  color:white;
+}
+button{
+  background-color: #3baf9f;
+  display: block;
+  margin: 20px 0 0 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366673;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+  position: relative;
+  top: -40px;
+  left: 250px;
+}
+
+button:hover{
+  background-color: #5390f5;
+}
+
+input{
+  color: #0000;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffff;
+  width: 100%;
+  background-color: #0000;
+  font-size: 8px;
+  font-family: 'Merriweather', serif;
+  
+}
+
